@@ -10,6 +10,8 @@ Bem-vindo(a)! Este repositório hospeda um curso interativo baseado apenas em ar
 
 ![Progresso](badges/progresso.svg) <!-- METRICS_BADGE -->
 
+> Nota: No build do site (GitHub Pages) as soluções em `solutions/` são substituídas por stubs para os alunos. A versão completa fica apenas na branch `solutions` ou na cópia `solutions_full/` gerada em CI.
+
 ## 📂 Estrutura (atual)
 ```
 curso/

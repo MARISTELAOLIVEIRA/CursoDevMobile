@@ -12,6 +12,7 @@
   "metrics": "node scripts/generate-metrics.js",
   "report": "node scripts/generate-report.js",
   "lint:solutions": "node scripts/lint-solutions.js",
+  "prepare:student": "node scripts/prepare-student-version.js",
   "ci": "npm run validate && npm run toc && npm run challenges && npm run metrics && npm run report && npm run lint:solutions || true"
   },
   "keywords": ["curso", "mobile", "markdown", "quiz"],
