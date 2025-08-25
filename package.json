@@ -8,11 +8,12 @@
     "quiz": "node scripts/quiz.js",
     "challenges": "node scripts/challenge-runner.js",
   "toc": "node scripts/generate-toc.js",
+  "home": "node scripts/generate-home.js",
   "validate": "node scripts/validate-structure.js",
   "metrics": "node scripts/generate-metrics.js",
   "report": "node scripts/generate-report.js",
   "lint:solutions": "node scripts/lint-solutions.js",
-  "ci": "npm run validate && npm run toc && npm run challenges && npm run metrics && npm run report && npm run lint:solutions || true"
+  "ci": "npm run validate && npm run toc && npm run home && npm run challenges && npm run metrics && npm run report && npm run lint:solutions || true"
   },
   "keywords": ["curso", "mobile", "markdown", "quiz"],
   "author": "",
