@@ -6,24 +6,46 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Preparar conteúdo (TOC, homepage)
+        run: |
+          npm install --no-audit --no-fund || true
+          node scripts/generate-toc.js
+          node scripts/generate-home.js
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Install MkDocs
-        run: |
-          pip install mkdocs mkdocs-material
-      - name: Build site
+      - name: Instalar MkDocs
+        run: pip install mkdocs mkdocs-material
+      - name: Build estático
         run: mkdocs build --strict
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          force_orphan: true
+          path: ./site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
