@@ -2,7 +2,14 @@
 
 Bem-vindo(a)! Este repositório hospeda um curso interativo baseado apenas em arquivos Markdown + um pequeno script Node.js para quizzes e validações locais. Tudo roda dentro do próprio repositório (GitHub + Codespaces/VS Code).
 
-## 🎯 Objetivos
+## � Acesso Rápido ao Site
+Se preferir navegar como aluno direto pelo navegador, acesse:
+
+https://maristelaoliveira.github.io/CursoDevMobile/
+
+> Caso ainda não veja a página inicial com a tabela de módulos, aguarde o workflow de deploy terminar (Actions > Deploy Docs) ou force manualmente em *Actions > Run workflow*.
+
+## �🎯 Objetivos
 - Estrutura modular em `curso/`
 - Navegação simples só com Markdown
 - Quizzes interativos locais (`node scripts/quiz.js`)

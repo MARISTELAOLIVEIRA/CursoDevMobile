@@ -1,4 +1,5 @@
 site_name: Curso Dev Mobile
+site_url: https://maristelaoliveira.github.io/CursoDevMobile/
 repo_url: https://github.com/MARISTELAOLIVEIRA/CursoDevMobile
 theme:
   name: material
