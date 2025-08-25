@@ -1,0 +1,16 @@
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+Você pode compartilhar (copiar e redistribuir) o material em qualquer meio ou formato sob as condições:
+- Atribuição: dê crédito apropriado, link para a licença e indique mudanças (se houver) sem sugerir endosso.
+- Não Comercial: não utilize para fins comerciais.
+- Sem Derivações: se remixar, transformar ou criar a partir do material, não distribua o material modificado.
+
+Sem restrições adicionais legais.
+
+Texto completo: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+Escopo desta licença no repositório:
+- Aplicável a todo o conteúdo educacional em `curso/`, `README.md`, `REPORT.md`, `classroom/` e demais arquivos Markdown (exceto blocos de código marcados como exemplos).
+- Exclusão: arquivos em `scripts/`, `solutions/`, `solutions_full/`, `package.json` e blocos de código — estes seguem MIT (LICENSE-CODE).
+
+Para permissões adicionais (uso comercial, adaptação para outro curso), contate a autora.

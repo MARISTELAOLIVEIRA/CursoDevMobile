@@ -103,6 +103,18 @@ Gera/atualiza `curso/INDEX.md` listando os módulos.
 - Integração com devcontainers para ambiente pronto
 
 ## 📜 Licença
-Veja `LICENSE`.
+Dual License:
+- Conteúdo: CC BY-NC-ND 4.0 (`LICENSE-CONTENT`).
+- Código: MIT (`LICENSE-CODE`).
+
+Uso permitido:
+- Clonar, estudar, executar quizzes e desafios localmente.
+- Reutilizar trechos de código em projetos (mantendo cabeçalho MIT).
+
+Não permitido sem autorização:
+- Publicar conteúdo textual modificado.
+- Uso comercial do material educacional.
+
+Detalhes completos em `LICENSE`.
 
 Boa jornada! Abra uma issue com sugestões.
