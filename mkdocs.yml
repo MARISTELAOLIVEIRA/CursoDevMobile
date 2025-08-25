@@ -1,0 +1,32 @@
+site_name: Curso Dev Mobile
+repo_url: https://github.com/MARISTELAOLIVEIRA/CursoDevMobile
+theme:
+  name: material
+  language: pt
+nav:
+  - Início: index.md
+  - Plano Geral: PLANO-GERAL.md
+  - Índice de Módulos: INDEX.md
+  - Módulos:
+      - 00 Introdução: 00-introducao.md
+      - 01 Ambiente: 01-ambiente.md
+      - 02 JS Moderno: 02-js-moderno.md
+      - 03 Fundamentos React: 03-react-fundamentos.md
+      - 04 Layout & Navegação: 04-layout-navegacao.md
+      - 05 Consumo APIs: 05-consumo-apis.md
+      - 06 Estado & Forms: 06-estado-forms.md
+      - 07 Navegação Avançada: 07-navegacao-avancada.md
+      - 08 Animações & Performance: 08-animacoes-performance.md
+      - 09 Estado Global: 09-estado-global.md
+      - 10 Offline & Testes: 10-offline-testes.md
+      - 11 Recursos Nativos 1: 11-recursos-nativos-1.md
+      - 12 Recursos Nativos 2: 12-recursos-nativos-2.md
+      - 13 Build & Segurança: 13-build-seguranca-ci.md
+      - 14 Projeto Final: 14-projeto-final.md
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+docs_dir: curso
+site_dir: site

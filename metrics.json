@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2025-08-25T14:27:02.935Z",
+  "totalModules": 15,
+  "completedModules": 15,
+  "percent": 100,
+  "modules": [
+    {
+      "file": "00-introducao.md",
+      "module": 0,
+      "hasQuiz": true,
+      "hasChallenge": false
+    },
+    {
+      "file": "01-ambiente.md",
+      "module": 1,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "02-js-moderno.md",
+      "module": 2,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "03-react-fundamentos.md",
+      "module": 3,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "04-layout-navegacao.md",
+      "module": 4,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "05-consumo-apis.md",
+      "module": 5,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "06-estado-forms.md",
+      "module": 6,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "07-navegacao-avancada.md",
+      "module": 7,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "08-animacoes-performance.md",
+      "module": 8,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "09-estado-global.md",
+      "module": 9,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "10-offline-testes.md",
+      "module": 10,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "11-recursos-nativos-1.md",
+      "module": 11,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "12-recursos-nativos-2.md",
+      "module": 12,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "13-build-seguranca-ci.md",
+      "module": 13,
+      "hasQuiz": true,
+      "hasChallenge": true
+    },
+    {
+      "file": "14-projeto-final.md",
+      "module": 14,
+      "hasQuiz": true,
+      "hasChallenge": false
+    }
+  ]
+}

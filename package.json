@@ -1,0 +1,20 @@
+{
+  "name": "curso-dev-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Curso interativo em Markdown com quizzes locais.",
+  "type": "module",
+  "scripts": {
+    "quiz": "node scripts/quiz.js",
+    "challenges": "node scripts/challenge-runner.js",
+  "toc": "node scripts/generate-toc.js",
+  "validate": "node scripts/validate-structure.js",
+  "metrics": "node scripts/generate-metrics.js",
+  "report": "node scripts/generate-report.js",
+  "lint:solutions": "node scripts/lint-solutions.js",
+  "ci": "npm run validate && npm run toc && npm run challenges && npm run metrics && npm run report && npm run lint:solutions || true"
+  },
+  "keywords": ["curso", "mobile", "markdown", "quiz"],
+  "author": "",
+  "license": "MIT"
+}
