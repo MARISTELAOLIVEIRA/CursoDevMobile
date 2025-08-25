@@ -101,6 +101,7 @@ Gera/atualiza `curso/INDEX.md` listando os módulos.
 - Testes automatizados para exercícios de código
 - Badge de progresso via GitHub Issues/Actions
 - Integração com devcontainers para ambiente pronto
+ - (Implementado) Quizzes interativos direto no site + progresso local
 
 ## 📜 Licença
 Dual License:

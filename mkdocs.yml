@@ -3,10 +3,16 @@ repo_url: https://github.com/MARISTELAOLIVEIRA/CursoDevMobile
 theme:
   name: material
   language: pt
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - assets/js/quiz-browser.js
+  - assets/js/progress.js
 nav:
   - Início: index.md
   - Plano Geral: PLANO-GERAL.md
   - Índice de Módulos: INDEX.md
+  - Progresso Local: progresso.md
   - Módulos:
       - 00 Introdução: 00-introducao.md
       - 01 Ambiente: 01-ambiente.md
