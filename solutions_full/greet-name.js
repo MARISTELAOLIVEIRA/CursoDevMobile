@@ -1,7 +1,5 @@
 // Solution for challenge: Saudação
 // Instructions: Implemente a função greet(name) retornando 'Olá, <name>!'
-export function greet(...args) {
-  // TODO: implementar
-  throw new Error('Not implemented');
-}!`;
+export function greet(name) {
+  return `Olá, ${name}!`;
 }
